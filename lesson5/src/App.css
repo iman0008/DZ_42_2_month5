@@ -1,0 +1,35 @@
+/* Устанавливаем общий стиль для страницы */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000; /* Черный фон */
+    color: #ffffff; /* Белый текст */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Ссылки как обычный текст */
+a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: inherit; /* Наследуем цвет текста от родителя */
+    cursor: default; /* Убираем стандартный указатель ссылок */
+}
+
+a:hover {
+    text-decoration: none; /* Отключаем подчеркивание при наведении */
+}
+
+/* Убираем маркеры списка, если они используются */
+ul {
+    list-style-type: none; /* Убираем маркеры у списка */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Добавляем отступ между элементами списка */
+}
+
